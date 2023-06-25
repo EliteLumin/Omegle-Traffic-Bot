@@ -9,7 +9,7 @@ omegle:
   server: null # Set a custom server, don't touch if you don't know what it is
 
 filters:
-  topics: ["manchester"] # topic to queue inside of ; example ["youtube", "tiktok"]
+  topics: ["tiktok", "uk", "usa", "bull"] # topic to queue inside of ; example ["youtube", "tiktok"]
 
 events:
   wait_for_message: false # wait for the strager to send a message
@@ -17,7 +17,7 @@ events:
   timeout: 5 # amount of seconds before it moves on
 
 message:
-  emoji: true # add a random emoji after your message
+  emoji: false # add a random emoji after your message
   string: false # add random string after your message
   prefix: "" # add a set string before your message
   suffix: "" # add a set string after your message
